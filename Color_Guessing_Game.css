@@ -1,0 +1,43 @@
+body{
+	background-color: black;
+}
+.headSection{
+	background: rgb(103, 169, 201);
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+	padding:0px;
+}
+.controls{
+	width:100%;
+	background: white;
+	color: rgb(103, 169, 201);
+	margin:0px;
+	padding:0px;
+}
+.unselected{
+	border: 0px solid white;
+	color: rgb(103, 169, 201);
+}
+.selected{
+	background-color: rgb(103, 169, 201);
+	color: white;
+	margin: 0px;
+	border: 0px solid rgb(103, 169, 201);
+	border-radius: 0px;
+}
+.selected:hover{
+	background-color: rgb(103, 169, 201);
+	color: white;
+	margin: 0px;
+	border: 0px solid rgb(103, 169, 201);
+	border-radius: 0px;
+}
+.colorButtons{
+	padding:3rem;
+	margin:2rem;
+	border-radius: 1rem;
+}
+.hide{
+	display: none;
+}

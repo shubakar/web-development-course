@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Color_Guessing_Game.css">
+</head>
+<body>
+  <div class="container-fluid headSection">
+  	<p class="lead display-4">The Great</p>
+    <h1 class="display-3">RGB(<span id="rr">255</span> , <span id="gg">255</span> , <span id="bb">255</span>)</h1>
+    <p class="lead display-4">Color Game</p>
+
+
+
+
+    <div class=" controls">
+  	<span class="d-flex justify-content-around">
+  		<button class="btn btn-outline-light newGame unselected">New Game</button>
+  		<button class="btn btn-outline-light tryAgain d-none unselected">Try Again</button>
+  		
+  		<button class="btn btn-outline-light easy unselected">Easy</button>
+  		<button class="btn btn-outline-light hard selected">Hard</button>
+  	</span>
+  </div>
+  </div>
+  
+
+
+  <div class="container">
+  	<div class="row justify-content-around">
+  		<div class="col-4">
+  			<button type="button" class=" col-3 btn btn-primary colorButtons one first"></button>
+  		</div>
+  		<div class="col-4">
+  			<button type="button" class=" col-3 btn btn-primary colorButtons two first"></button>
+  		</div>
+  		<div class="col-4">
+  			<button type="button" class=" col-3 btn btn-primary colorButtons three first"></button>
+  		</div>
+  		<div class="col-4">
+  			<button type="button" class=" col-3 btn btn-primary colorButtons four second"></button>
+  		</div>
+  		<div class="col-4">
+  			<button type="button" class=" col-3 btn btn-primary colorButtons five second"></button>
+  		</div>
+  		<div class="col-4">
+  			<button type="button" class=" col-3 btn btn-primary colorButtons six second"></button>
+  		</div>
+  	</div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	<script type="text/javascript" src="Color_Guessing_Game.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
